@@ -3,9 +3,9 @@ import { Download, Star, Github, Twitter, Bot, Zap, Shield, BarChart3, ArrowRigh
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-100">
+    <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="fixed top-0 w-full glass-header z-50">
+      <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-gray-200 z-50">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
             <Bot className="h-8 w-8 text-orange-600" />
@@ -44,14 +44,14 @@ function App() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a 
                 href="https://github.com/Nichols-AI/Craig/releases"
-                className="glass-button text-white px-8 py-4 rounded-lg flex items-center space-x-2 text-lg font-medium"
+                className="bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-600/90 transition-colors flex items-center space-x-2 text-lg font-medium"
               >
                 <Download className="h-5 w-5" />
                 <span>Download Craig</span>
               </a>
               <a 
                 href="https://github.com/Nichols-AI/Craig"
-                className="glass-button-secondary text-gray-700 px-8 py-4 rounded-lg flex items-center space-x-2 text-lg font-medium"
+                className="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-orange-600 hover:text-orange-600 transition-colors flex items-center space-x-2 text-lg font-medium"
               >
                 <Github className="h-5 w-5" />
                 <span>View on GitHub</span>
@@ -94,7 +94,7 @@ function App() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="glass-feature-card p-8 rounded-2xl"
+              className="bg-white p-8 rounded-2xl shadow-sm border border-gray-200 hover:shadow-lg transition-shadow"
             >
               <div className="w-12 h-12 bg-orange-600/10 rounded-lg flex items-center justify-center mb-6">
                 <Bot className="h-6 w-6 text-orange-600" />
@@ -125,7 +125,7 @@ function App() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="glass-feature-card p-8 rounded-2xl"
+              className="bg-white p-8 rounded-2xl shadow-sm border border-gray-200 hover:shadow-lg transition-shadow"
             >
               <div className="w-12 h-12 bg-blue-500/10 rounded-lg flex items-center justify-center mb-6">
                 <BarChart3 className="h-6 w-6 text-blue-500" />
@@ -155,7 +155,7 @@ function App() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="glass-feature-card p-8 rounded-2xl"
+              className="bg-white p-8 rounded-2xl shadow-sm border border-gray-200 hover:shadow-lg transition-shadow"
             >
               <div className="w-12 h-12 bg-purple-500/10 rounded-lg flex items-center justify-center mb-6">
                 <Zap className="h-6 w-6 text-purple-500" />
@@ -227,7 +227,7 @@ function App() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a 
               href="https://github.com/Nichols-AI/Craig/releases"
-              className="glass-button text-white px-8 py-4 rounded-lg flex items-center space-x-2 text-lg font-medium"
+              className="bg-orange-600 text-white px-8 py-4 rounded-lg hover:bg-orange-600/90 transition-colors flex items-center space-x-2 text-lg font-medium"
             >
               <Download className="h-5 w-5" />
               <span>Download for Free</span>
