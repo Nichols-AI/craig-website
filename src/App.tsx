@@ -258,7 +258,7 @@ function App() {
               <a href="https://github.com/Nichols-AI/Craig" className="text-gray-600 hover:text-orange-600 transition-colors">
                 <Github className="h-5 w-5" />
               </a>
-              <a href="https://x.com/nichols_ai" className="text-gray-600 hover:text-orange-600 transition-colors">
+              <a href="https://x.com/NICHOLSAI1130" className="text-gray-600 hover:text-orange-600 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
             </div>
